@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoccerPrediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="turno.json" target="_blank">Carica Partita da JSON:</a>
+        <select name="selettore" id="selector">
+        </select>
+        <div class="inputlayout">
+            <div>
+                Squadra di Casa: <input type="text" name="nome" class="incasa">
+                Posizione: <input type="text" name="posizione" class="incasa">
+                Partite Vinte: <input type="text" name="vinte" class="incasa">
+                Partite Pareggiate: <input type="text" name="pareggiate" class="incasa">
+                Partite Perse: <input type="text" name="perse" class="incasa">
+                Gol Fatti: <input type="text" name="golFatti" class="incasa">
+                Gol Subiti: <input type="text" name="golSubiti" class="incasa">
+            </div>
+            <div>
+                Squadra in Trasferta: <input type="text" name="nome" class="intrasferta">
+                Posizione: <input type="text" name="posizione" class="intrasferta">
+                Partite Vinte: <input type="text" name="vinte" class="intrasferta">
+                Partite Pareggiate: <input type="text" name="pareggiate" class="intrasferta">
+                Partite Perse: <input type="text" name="perse" class="intrasferta">
+                Gol Fatti: <input type="text" name="golFatti" class="intrasferta">
+                Gol Subiti: <input type="text" name="golSubiti" class="intrasferta">
+            </div>
+        </div>
+        <input type="button" value="Calcola" class="bottone">
+        <div class="outputlayout" style="display: none">
+            %1 <input type="text" name="percuno" class="risultati">
+            %X <input type="text" name="percics" class="risultati">
+            %2 <input type="text" name="percdue" class="risultati">
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+        .container {
+            background-color: blue;
+            border: 2px solid black;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            padding: 5px;
+            width: fit-content;
+        }
+        
+        .inputlayout * {
+            display: inline-flex;
+            flex-flow: column wrap;
+            margin: 5px 5px 5px 0px;
+        }
+
+        .risultati {
+            width: 3.95rem;
+            padding: 0px;
+            margin-inline: 5px;
+        }
+        
+        a{
+            text-decoration: underline;
+            color: white;
+        }
